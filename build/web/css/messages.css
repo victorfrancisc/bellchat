@@ -1,0 +1,362 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    width: 100%;
+    height: 100%;
+   display: flex;
+}
+.header{
+    width: 20%;
+    max-width: 160px;
+max-height: 657px;
+
+}
+.flecha{
+    text-align: center;
+     background: #373737;
+    height: 10%;
+}
+.flecha div{
+    width: 40%;
+    height: 90%;
+  border: white 1px solid;
+    border-radius: 20px;  
+}
+
+.flecha div img{
+    width: 70%;
+    height: 70%;
+    margin-top: 15%;
+}
+
+.navegation ul{
+    margin: 0;
+    padding: 0;
+}
+.navegation ul li{
+    display: block;
+}
+.containerheader{
+    background: #373737;
+     height: 591px;
+    
+}
+.navegation ul li div a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+.navegation ul li div a,.navegation ul li div img{
+    justify-content: space-between;
+}
+.navegation ul li div:hover{
+   box-shadow:0px 0px 6px 1px;
+}
+.navegation ul li div{
+    display: flex;
+    padding: 1.57rem 0.5rem;
+}
+.main{
+    width: 88%;
+    height: 100%;   
+    display: flex;
+}
+.bandejas{
+    height: 100%;
+    width: 25%;
+    display: block;
+    max-height: 657px;
+    background: #444444;
+}
+.myinfo{
+    border-bottom: white 1px solid;
+}
+.myinfo,.myinfoadat{
+    display: flex;
+}
+.myinfophot{
+    width: 30%;
+    text-align: end;
+}
+.myinfophot img{
+      width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.myinfoadat{
+    width:70%;
+}
+.myinfoname{
+    color: white;
+    font-size: 25px;
+    padding: 0rem 01rem;
+}
+.myinfoacti{
+    margin-top: 25%;
+    margin-left: -12%;
+}
+.myinfoacti div{
+    width: 15px;
+    height: 15px;
+    background: #00FF00;
+    border-radius: 50%;
+}
+.myinfoname{
+    margin-top: 15%;
+}
+.alluserbandejas{
+    overflow-y: auto;
+     height:534px;
+}
+.alluserbandejas::-webkit-scrollbar {
+  background-color: white;
+    border-radius: 20px;
+    border: 2px solid #444444;
+    width: 10px;
+    height: 10px;
+}
+.bandejasbuscar{
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+}
+.bandejasbuscar input{
+    border-radius: 20px;
+    height: 20px;
+    width: 90%;
+}
+ .bandejasbuscar input:focus{
+          outline: none;
+        }
+.bandejasuser {
+    display: flex;
+     background: #444444;
+     color: white;
+    padding: 0.4rem 0.5rem;
+}
+.bandejasuserimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    
+}
+.bandejasuserdata{
+    display: block;
+    width: 150px;
+    overflow: hidden;
+}
+.bandejasuserdataname label{
+    font-size: 20px;
+}
+.bandejasuserdatasms label{
+    width: 150px;
+}
+.chtsms{
+    display: block;
+    width: 50%;
+}
+.chtsmsusersheader{
+    background: #E6E6E6;
+    height: 54px;
+    width: 100%;
+    display: flex;
+}
+.chtsmsusersheaderdata{
+     width: 85%;
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+.chtsmsusersheaderdataname{
+     width: 75%;
+    width: auto;
+    font-size: 24px;
+    padding: 0.2rem 0rem;
+}
+.chtsmsusersheaderdataactivo {
+     width: 25%;
+    display: flex;
+    padding: 0rem 0.5rem;
+}
+.chtsmsusersheaderdataactivo img{
+     width: 25px;
+    height: 20px;   
+    border-radius: 50%;
+    padding: 0.4rem 0rem;
+}
+
+.onli{
+     padding: 0.4rem 0.5rem;
+}
+
+.chtsmsusersheaderimg{
+     width: 10%;
+    display: flex;
+    justify-content: space-around;
+      padding: 0.5rem 1rem;
+}
+
+.chtsmsusersheaderimg img{
+     width: 30px;
+    height: 30px;
+}
+
+.chtsmsusersheader {
+    border-bottom: 2px  white solid;
+}
+
+
+
+.chtsmsusercenter{
+    background: #E6E6E6;
+    height: 539.1px;
+    overflow-y: auto;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: white 2px solid;
+}
+.chtsmsusercentersmsrecibe{
+     padding: 0.2rem 0.8rem;
+     display: flex;
+    justify-content: flex-start;
+}
+
+.chtsmsusercentersmsrecibe .allsms{ 
+    max-width: 80%;
+    display: flex;
+    border-radius: 20px;
+    background: white;
+    height: auto;
+    padding: 0rem 0.2rem 0rem 0rem ;
+}
+
+.chtsmsusercentersmsrecibe .texto {
+    height: auto;
+    word-wrap: break-word; 
+   max-width:87.5%;
+    width: auto;
+    padding: 0.4em 0.4rem;
+}
+.chtsmsusercentersmsenvia{
+      padding: 0.2rem 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.chtsmsusercentersmsenvia .allsms{
+    width: auto;
+    max-width: 80%;
+    display: flex;
+    border-radius: 20px;
+    background: white;
+    justify-content: flex-end;
+          padding: 0rem 0.2rem 0rem 0rem;
+
+}
+.chtsmsusercentersmsenvia .texto {
+    height: auto;
+    word-wrap: break-word; 
+   max-width:87.5%;
+    width: auto;
+    padding: 0.4em 0.4rem ;
+}
+
+.hora{
+    width: auto;
+}
+h3 {
+    font-size: 13px;
+}
+
+
+.chtsmsuserpie{
+    display: flex;
+  background: #E6E6E6;
+    width: 100%;
+    height: 60px;
+}
+.chtsmsuserpietxt {
+    width: 80%;
+        padding: 0.5em 1rem;
+    
+
+}
+.chtsmsuserpietxt input{
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    
+}
+ .chtsmsuserpietxt input:focus{
+          outline: none;
+        }
+
+.chtsmsuserpieaction{
+    width: 20%;
+    display: flex;
+   padding: 0.8rem 0rem;
+    justify-content: space-around;
+}
+.chtsmsuserpieaction img{
+   width: 30px;
+    height: 30px;
+}
+
+.infouserchat{
+    height: 100%;
+    width: 25%;
+    display: block;
+    overflow-y: auto;
+    max-height: 650px;
+}
+.infouserchat::-webkit-scrollbar {
+  background-color: #444444;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 10px;
+    height: 10px;
+}
+
+.infouserchatphotname{
+    display: block;
+     padding: 1em 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.infouserchatphoto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.infouserchatnames div{
+    font-size: 25px;
+     padding: 0.2em 0rem;
+}
+.infouserchatotherinfo{
+    display: block;
+}
+.infouserchatdirecci, .infouserchatcorreo, .infouserchattelefo, .infouserchatfnaci{
+    display: flex;
+     padding: 1em 1rem;
+}
+.infouserchatdirecci img,
+.infouserchatcorreo img, .infouserchattelefo img, .infouserchatfnaci img {
+    width: 30px;
+    height: 30px;
+}
+.infouserchatdirecci div,
+.infouserchatcorreo div, .infouserchattelefo div, .infouserchatfnaci div {
+   font-size: 20px;
+    padding: 0em 2rem;
+}
+.infouserchatotheracti{
+    text-align: center;
+}
+.infouserchatotheracti img{
+     width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}

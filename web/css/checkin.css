@@ -1,0 +1,67 @@
+
+body
+{
+ margin: auto 0;
+ background:  #ecf0f1 ;
+ 
+}
+.general
+{
+    width: 100%; height: 100%; overflow: hidden;
+}
+.conten
+{
+    width: 60%; height: 100%; margin-left: 20%; margin-right: 20%;  overflow: hidden; border: #000; margin-top: 3%;
+}
+.conteSu
+{
+    width: 40%; height: 80%; background:  #d7dbdd ;   float: left;  overflow: hidden; 
+}
+.conteUne
+{
+   width: 100%; height: 8%;  background: #fff;
+}
+.conteTwo
+{
+    text-align:center;   font-size: 2vw;
+}
+.contemen
+{
+    width: 100%; height:5%;
+}
+.conteima
+{
+    width: 100%; height: 30%;
+}
+.conteinfe
+{
+    width: 60%; height: 20%;  float:right;
+}
+form
+{
+   background: white; border: slategray solid;overflow: hidden ;
+}
+.contForm
+{
+    width: 80%; height: 80%; margin-top: 5%; margin-bottom: 5%;; margin-left: 10%; margin-right: 10%; -webkit-border-radius: 8px; -moz-border-radius: 8px;overflow: hidden;
+}
+.inputText
+{
+    width:80%; height: 30%; border: 1px black  solid; -webkit-border-radius: 8px; -moz-border-radius: 8px; font-size: 1vw;
+}
+.inputTextwo
+{
+    width:80%; height: 30%;border: 1px black  solid; -webkit-border-radius: 8px; -moz-border-radius: 8px;font-size: 1vw;
+}
+.submit
+{
+    background:#d7dbdd; width: 30%;border: slategray solid; height: 50%;-webkit-border-radius: 8px; font-size: 1.5vw; -moz-border-radius: 8px; float: right;
+}
+.letra
+{
+    font-size: 1vw;
+}
+.letraDos
+{
+    font-size: 2vw;  
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>BellChat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="../css/messages.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/websocket.js" type="text/javascript"></script>
+    </head>
+    <body onload="unir()">
+        <div class="all">
+            <div class="header">
+                <div class="flecha">
+                    <div>
+                        <img src="../imagen/chat/menu.png" alt=""/>
+                    </div>
+                </div>
+                <div class="containerheader">
+                    <nav class="navegation">
+                        <ul>
+                            <li><div> <img src="../imagen/chat/casita.png" alt=""/>  <a href="../indextwo.xhtml" >Inicio </a> </div></li>
+                            <li><div> <img src="../imagen/chat/login.png" alt="" /> <a href="login.xhtml" >Login </a> </div></li>
+                            <li><div> <img src="../imagen/chat/cof.png" alt="" />  <a href="#">Configuraciones </a> </div></li>
+                            <li><div> <img src="../imagen/chat/indextwo.png" alt="" />  <a href="#" >Registrar </a> </div></li>
+                            <li><div> <img src="../imagen/chat/Schat.png" alt="" /> <a href="messages.xhtml" >Mensajes </a></div> </li>
+                            <li><div> <img src="../imagen/chat/micro.png" alt="" /> <a href="#" >Comando </a></div> </li>
+                            <li><div> <img src="../imagen/chat/sili.png" alt="" /> <a href="#" >Mute </a> </div></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="main">
+                <div class="bandejas">
+                    <div class="myinfo">
+                        <div class="myinfophot"> 
+                            <img src="../imagen/chat/8566.jpg" alt=""/>
+                        </div>
+                        <div class="myinfoadat">
+                            <div class="myinfoacti"> 
+                                <div>
+
+                                </div>
+                            </div>
+                            <div id="username" class="myinfoname"> </div>
+                        </div>
+                    </div>
+                    <div class="bandejasbuscar">
+                        <input type="text" value="" placeholder="Buscar" />
+                    </div>
+                    <div id="allsmsbandeja" class="alluserbandejas">
+                    </div>
+                </div>
+                <div class="chtsms">
+                    <div id="containerchatfriend" class="chtsmsusers">
+                        <div class="chtsmsusersheader">
+                            <div class="chtsmsusersheaderdata"> 
+                                <div id="namefriend" class="chtsmsusersheaderdataname"></div>
+                                <div class="chtsmsusersheaderdataactivo">
+                                    <img src="../imagen/chat/puntoverde.png" alt=""/>
+                                    <label class="onli"> activo</label>
+                                </div>
+                            </div>
+                            <div class="chtsmsusersheaderimg">
+                                <img  src="../imagen/chat/buscar.png" alt="" /> 
+                                <img  src="../imagen/chat/flecha-hacia-abajo.png" alt="" /> 
+                            </div>
+                        </div>
+                        <div id="centersms" class="chtsmsusercenter">
+                           
+                        </div>
+                        <div class="chtsmsuserpie">
+                            <div class="chtsmsuserpietxt" > 
+                                <input id="textsend" type="text" value="" placeholder="escribe tu texto ......" />
+                            </div>
+                            <div class="chtsmsuserpieaction">
+                                <div onclick="enviartext()"> <img src="../imagen/chat/send.png" alt="" /></div> 
+                                <div>  
+                                    <img src="../imagen/chat/audio.png" alt=""/>
+                                </div> 
+                                <div></div> 
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="infoallfriend" class="infouserchat">
+                    <div class="infouserchatphotname">
+                        <div class="infouserchatphoto">
+                            <img  src="../imagen/chat/educacion-digital.jpg" alt="" /> 
+                        </div>
+                        <div class="infouserchatnames">
+                            <div id="nameallfriend" > </div>
+                        </div>
+                    </div>
+                    <div class="infouserchatotherinfo">
+                        <div class="infouserchatdirecci">
+                            <img src="../imagen/chat/locationpinmap_99638.png" alt=""/>
+                            <div id="addresfriend">  </div>
+                        </div>
+                        <div class="infouserchatcorreo">
+                            <img src="../imagen/chat/email.png" alt=""/>
+                            <div id="emailfriend"> </div>
+                        </div>
+                        <div class="infouserchattelefo">
+                            <img src="../imagen/chat/phone.png" alt=""/>
+                            <div id="phonefriend"></div>
+                        </div>
+                        <div class="infouserchatfnaci">
+                            <img src="../imagen/chat/calendar.png" alt=""/>
+                            <div id="nacifriend">Enero 24, 1990</div>
+                        </div>
+                    </div>
+                    <div class="infouserchatotheracti">
+                        <img src="../imagen/chat/8566.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,104 @@
+
+body
+{
+ margin: auto 0;
+ 
+ background:  #ecf0f1 ;
+ 
+}
+.generalregister
+{
+     width: 100%; height: 20%;
+}
+.barrare
+{
+    width: 100%;height: auto; top: 0; background: white; box-shadow:0px 0px 5px 1px;  overflow:  hidden;  position: fixed; 
+}
+.contTunre
+{
+    width:80%;height: auto; margin-left: 1%; float: left;
+}
+.contTune1re
+{
+    width: auto; height: 100%; overflow:hidden; 
+}
+.sepre
+{
+    width: auto; height: 25px;
+}
+.barraIzre
+{
+    width: auto;  height: auto; padding: 1%; margin-right: 2%; float: left;
+}
+
+.style1re
+{
+    font-family: Britannic; font-size: 1.5vw; color: black; cursor: pointer
+}
+.barraIzre:hover
+{
+    -webkit-border-radius: 10px; box-shadow:0px 0px 5px 1px; 
+}
+.fromregistre
+{
+    width: 100%; height: auto;padding-top: 12rem;
+    
+}
+.contmu
+{
+    width: auto; height:auto; background: #00BFFF;
+}
+.conteuser
+{
+    width: 100%; height: auto;   margin-top: -10%;
+}
+.conteim
+{
+     width: 15%; height: auto;   margin-left: 40%; padding: 1%;
+}
+.contefrominter
+{
+    width: 60%; height: auto; background: white; border: #d0d3d3 solid; -webkit-border-radius: 10px; margin-left: 20%;
+}
+.styeretique
+{
+    font-size: 1.5vw;
+}
+.registrainput
+{
+    width: 80%; height: 25px; border: #d0d3d3 solid 1px; -webkit-border-radius: 50px; font-size: 1vw;  outline:none;
+} 
+.contecombobox
+{
+    
+    width: auto; height: auto; margin-top: 5%; margin-bottom: 5%;
+    
+}
+.combobox
+{
+    box-sizing: border-box; font-size: 1.5vw;-webkit-border-radius: 8px;outline:none;display: block; 
+}
+.contegerefrom
+{
+    width: 50%; height: auto;   overflow:  hidden;
+}
+.cont
+{
+    width: 100%; height: auto; padding: 1%; float: left;
+}
+.contebutton
+{
+    width: auto; height: auto; padding: 1%; background: #ffffff; text-align: center;
+}
+.buttoningr
+{
+    width:50% ; height: auto; background: #00BFFF; border: blue 1px solid; font-size: 1.5vw;  -webkit-border-radius: 10px;
+}
+.buttoningr:hover
+{
+    box-shadow:0px 0px 5px 1px; outline: none;
+}
+.enlacePage
+{
+    
+}

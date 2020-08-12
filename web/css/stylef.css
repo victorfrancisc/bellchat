@@ -1,0 +1,213 @@
+body
+{
+    margin: auto 0;
+    background: white;
+}
+.barraS1
+{
+    width: 100%;height: auto; top: 0; background: white; box-shadow:0px 0px 5px 1px;  overflow:  hidden;  position: fixed; 
+}
+.conteT1
+{
+    width: 100%; height: 100%; overflow:hidden;  padding: 1%;
+    justify-content:  space-between;
+}
+.contTune1
+{
+    width: 100%; height: 100%; overflow:hidden;  padding: 1%;
+    justify-content:  space-between;
+}
+.sep1
+{
+    width: auto; height: 25px;
+}
+.barraIz1
+{
+    width: auto;  height: auto; padding: 1%; margin-right: 2%; float: left;
+}
+
+.style1
+{
+    font-family: Britannic;font-size: 1.5vw; color: black;
+}
+.coneiii
+{
+    width:2.2%; height: auto; float: left; margin-left: 1%;
+}
+.linkotrio
+{
+    margin-right: 1%; margin-top: 1%;   font-size:1.5vw; float: left;  
+
+}
+.linkotrio:hover
+{
+    border-bottom:#00BFFF 2px solid;
+}
+.estco
+{
+    text-decoration: none; color: black; cursor: pointer;
+}
+
+
+
+
+.conteImage
+{
+    width:15%; height: 100%; float: left;
+}
+.contemenulo
+{
+    width:80%;height: auto;margin-left: 1%; background: white; float:left;
+}
+@media only screen and (max-width: 1014px)
+{
+    .barraS1
+    {
+        width: 8%; display: inline-block;  
+    }
+    .contemenulo
+    {
+        width: auto; padding: 1%;
+    }
+    .conteT1
+    {
+        width: auto; padding-right: 1%; 
+    }
+    .contTune1
+    {
+        width: 100%; 
+    }
+    .conteImage
+    {
+        display:  none;
+    }
+    .coneiii
+    {
+        width: 100%; height: 100%; display:  inline-block;
+    }
+    .coneiii:hover
+    {
+        box-shadow:0px 0px 5px 1px; border: #00BFFF solid 1px; 
+
+    }
+    .linkotrio
+    {
+        display:  none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#main{
+
+    padding-top: 10rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+#contenedor{   
+    /*//etiqueta welcome*/
+    background: #00BFFF ;   
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px; 
+    opacity: .95;
+}
+#encabezado{
+    /* fondo de la imagen*/
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    background:  #00BFFF;
+}
+#imguser{
+    /*    contenedor de la imagen emojin*/
+    margin-top: -80px;
+
+    width: auto;
+    height: auto;
+    position: relative;
+
+}
+#encabezado h3{
+    box-shadow:0px 0px 5px 1px;
+    position: relative;
+    top: -40px;
+    color: black;
+}
+
+#cuer{
+    background: white ;
+
+    margin-top: 20px;
+    width: 345px;
+    height: 189px;
+}
+#user, #password {
+    position: relative;
+    top: 10px;
+}
+#userimg,#passimg{
+    left: 50px;
+    top: 6px;
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+#textuser,#textpassword{
+    position: relative;
+    left: 55px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom : #1b5585 solid 2px;
+    width: 200px;
+    outline:none;
+
+}
+#recordar{
+
+    position:relative;
+    left: 200px;
+    color: #1b5585;
+}
+#btnlogin{
+    color: black;
+    background: #00BFFF;
+    position: relative;
+    left: 55px;
+    width: 230px;
+    height: 40px;
+    border-radius: 20px;
+}
+#registrar{
+    border-top: white solid 2px;
+    position: relative;
+    top: 20px;
+    color: black;
+
+}
+#registrar label,#registrar #regis{
+    position: relative;
+    top: 8px;
+
+}
+#regis{
+    color:black;
+    position: relative;
+    left: 50px;
+}
